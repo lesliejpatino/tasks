@@ -4,8 +4,8 @@ Created with the purpose of practicing Javascript fundamentals, this to-do list 
 
 * [Live Site](https://lesliejpatino.github.io/tasks/)
 
-## Authors
-* **Leslie Patino**
+## Author
+**Leslie Patino**
 
 - [My Portfolio](https://lesliejpatino.github.io/portfolio/)
 - [My LinkedIn](https://www.linkedin.com/in/lesliejpatino/)
