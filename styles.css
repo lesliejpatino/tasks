@@ -1,3 +1,7 @@
 #task-div {
     text-align: center;
 }
+
+#todo-title, #todo-title button {
+    margin-bottom: 15px;
+}
