@@ -13,16 +13,12 @@ if (Array.isArray(savedTodos)) {
     todos = savedTodos;
 } else {
     todos = [{
-        title: 'Get groceries',
+        title: 'coding practice',
         id: 'id1'
     },
     {
-        title: 'Meal prep',
+        title: 'meal prep',
         id: 'id2'
-    },
-    {
-        title: 'Make dinner',
-        id: 'id3'
     }];
 }
 
