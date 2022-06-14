@@ -1,7 +1,44 @@
+@import url('http://fonts.cdnfonts.com/css/lyemuelookkreung');
+
+* {
+    font-family: 'LyeMueLookKreung', sans-serif;
+    font-size: 28px;
+    background-color: rgb(35, 35, 35);
+}
+
+h1 {
+    font-size: 58px;
+    color: white;
+}
+
 #task-div {
     text-align: center;
 }
 
-#todo-title, #todo-title button {
-    margin-bottom: 15px;
+#todo-title, #add-task {
+    margin-bottom: 2em;
+}
+
+#todo-title {
+    box-shadow: inset 8em 8em rgb(220, 241, 241);
+    padding-left: .4em;
+    font-weight: bold;
+}
+
+#add-task {
+    background-color: brown;
+    color: white;
+    padding: 0 .3em 0 .3em;
+    border-radius: .5em;
+    box-shadow: .09em .09em .2em white;
+    cursor: pointer;
+}
+
+#todo-list {
+    margin: 0 auto;
+    width: 12em;
+    background-color: rgb(220, 241, 241);
+    border-radius: .5em;
+    text-align: right;
+    padding: .4em;
 }

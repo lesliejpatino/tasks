@@ -71,10 +71,11 @@ function render() {
         // Creating & appending element
         const element = document.createElement('div');
         element.innerText = todo.title;
+        element.style = 'background-color: rgb(220, 241, 241);'
 
         const deleteButton = document.createElement('button');
         deleteButton.innerText = 'Delete';
-        deleteButton.style = 'margin-left: 12px; margin-bottom: 7px; margin-top: 7px;';
+        deleteButton.style = 'margin: .4em 0 .4em .8em; border-radius: .5em; background-color: white; cursor: pointer;';
         deleteButton.onclick = deleteTodo;
         deleteButton.id = todo.id;
         element.appendChild(deleteButton);
